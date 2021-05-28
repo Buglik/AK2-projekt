@@ -1,4 +1,6 @@
-module full_adder 
+`include "../../libs/cmos_cells.v"
+
+module full_adder
 (
   input wire i_x, i_y, i_carry,
   output wire o_sum, o_carry

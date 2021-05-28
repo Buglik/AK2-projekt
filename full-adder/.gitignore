@@ -1,0 +1,7 @@
+dsn.out
+test.vcd
+*.dot
+*_synth.v
+ib
+vcd_autosave.sav
+buifld

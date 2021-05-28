@@ -1,0 +1,28 @@
+# read design
+read_verilog ../verilog/full_adder.v
+hierarchy -check
+
+synth -flatten
+
+# high-level synthesis
+proc; opt; memory; opt; fsm; opt
+
+# low-level synthesis
+techmap; opt
+
+# map to target architecture
+read_liberty -lib ../../libs/cmos_cells.lib
+dfflibmap -liberty ../../libs/cmos_cells.lib
+abc -liberty ../../libs/cmos_cells.lib
+
+# split larger signals
+splitnets -ports; opt
+
+# cleanup
+clean
+
+# write synthesized design
+write_verilog ../build/full_adder_synth.v
+
+# show
+show -format dot -lib ../build/full_adder_synth.v -prefix ../build/full_adder_cmos

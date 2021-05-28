@@ -18,7 +18,7 @@ module full_adder_tb;
  
   initial
     begin
-      $dumpfile("test.vcd");
+      $dumpfile("../build/test.vcd");
       $dumpvars(1, full_adder_tb);
       x = 0; y = 0; c = 0; #period; 
       x = 0; y = 0; c = 1; #period;
