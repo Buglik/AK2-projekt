@@ -2,7 +2,7 @@
 
 `timescale 1 ns/10 ps  // time-unit = 1 ns, precision = 10 ps
 
-module half_adder_tb (x1, x2, sum, carry);
+module half_adder_tb;
 
   reg x1, x2;
   wire sum, carry;
