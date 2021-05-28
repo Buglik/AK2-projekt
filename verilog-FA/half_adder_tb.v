@@ -18,6 +18,8 @@ module half_adder_tb;
  
   initial
     begin
+      $dumpfile("test.vcd");
+      $dumpvars(1, half_adder_tb);
       x1 = 0;
       x2 = 0;
       #period;
