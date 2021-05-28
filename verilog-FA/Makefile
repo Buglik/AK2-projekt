@@ -1,4 +1,4 @@
-files = half_adder_tb.v
+files = full_adder_tb.v
 
 .PHONY: compile
 
