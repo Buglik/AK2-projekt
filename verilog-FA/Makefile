@@ -11,7 +11,7 @@ compile:
 
 waveform:
 	@echo "Generate VCD dump ..."
-	@vvp dsn
+	@vvp dsn.out
 
 letTheShowBegin:
 # http://gtkwave.sourceforge.net/
