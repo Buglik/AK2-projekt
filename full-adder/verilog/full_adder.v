@@ -1,5 +1,3 @@
-`include "../../libs/cmos_cells.v"
-
 module full_adder
 (
   input wire i_x, i_y, i_carry,

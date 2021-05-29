@@ -1,0 +1,192 @@
+[
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "B",
+        "C",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ], [
+        "A",
+        "gnd",
+        "Y",
+        "vdd"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "full_adder",
+      "full_adder"
+   ],
+   "devices": [
+       [
+         ["NAND2X1", 2],
+         ["NOR2X1", 1],
+         ["OR2X2", 1],
+         ["NAND3X1", 1],
+         ["INVX1", 1],
+         ["AND2X2", 1],
+         ["OAI21X1", 2],
+         ["BUFX2", 2 ]
+       ], [
+         ["NAND2X1", 2 ],
+         ["NOR2X1", 1 ],
+         ["OR2X2", 1 ],
+         ["NAND3X1", 1 ],
+         ["INVX1", 1 ],
+         ["AND2X2", 1 ],
+         ["OAI21X1", 2 ],
+         ["BUFX2", 2 ]
+       ]
+   ],
+   "nets": [
+    16,
+    16
+   ],
+   "badnets": [
+   ],
+   "badelements": [
+   ],
+   "pins": [
+      [
+        "o_sum",
+        "o_carry",
+        "i_x",
+        "i_y",
+        "vdd",
+        "gnd",
+        "i_carry"
+      ], [
+        "o_sum",
+        "o_carry",
+        "i_x",
+        "i_y",
+        "vdd",
+        "gnd",
+        "i_carry"
+      ]
+   ]
+  }
+]

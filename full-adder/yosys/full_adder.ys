@@ -11,9 +11,9 @@ proc; opt; memory; opt; fsm; opt
 techmap; opt
 
 # map to target architecture
-read_liberty -lib ../../libs/cmos_cells.lib
-dfflibmap -liberty ../../libs/cmos_cells.lib
-abc -liberty ../../libs/cmos_cells.lib
+read_liberty -lib ../libs/cmos_cells.lib
+dfflibmap -liberty ../libs/cmos_cells.lib
+abc -liberty ../libs/cmos_cells.lib
 
 # split larger signals
 splitnets -ports; opt
@@ -22,7 +22,7 @@ splitnets -ports; opt
 clean
 
 # write synthesized design
-write_verilog ../build/full_adder_synth.v
+write_verilog ./build/full_adder_synth.v
 
 # show
-show -format dot -lib ../build/full_adder_synth.v -prefix ../build/full_adder_cmos
+show -format dot -lib ./build/full_adder_synth.v -prefix ./build/full_adder_cmos

@@ -1,0 +1,68 @@
+
+Qflow static timing analysis logfile appended on sob, 29 maj 2021, 15:51:49 CEST
+Converting qrouter output to vesta delay format
+Running rc2dly -r full_adder.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d full_adder.dly
+Converting qrouter output to SPEF delay format
+Running rc2dly -D : -r full_adder.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d full_adder.spef
+Converting qrouter output to SDF delay format
+Running rc2dly -r full_adder.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d full_adder.sdf
+Running vesta static timing analysis with back-annotated extracted wire delays
+vesta -c -d full_adder.dly --long full_adder.rtlnopwr.v /usr/share/qflow/tech/osu018/osu018_stdcells.lib
+----------------------------------------------
+Vesta static timing analysis tool
+for qflow 1.3.17
+(c) 2013-2018 Tim Edwards, Open Circuit Design
+----------------------------------------------
+
+Parsing library "osu018_stdcells"
+End of library at line 6141
+Parsing module "full_adder"
+Lib read /usr/share/qflow/tech/osu018/osu018_stdcells.lib:  Processed 6142 lines.
+Verilog netlist read:  Processed 28 lines.
+Number of paths analyzed:  0
+
+Top 0 maximum delay paths:
+Computed maximum clock frequency (zero margin) = inf MHz
+-----------------------------------------
+
+Number of paths analyzed:  0
+
+Top 0 minimum delay paths:
+Design meets minimum hold timing.
+-----------------------------------------
+
+Number of paths analyzed:  2
+
+Top 2 maximum delay paths:
+Path input pin i_y to output pin o_sum delay 323.07 ps
+      0.2 ps    i_y:             ->  NOR2X1_1/A
+     97.4 ps    _0_:  NOR2X1_1/Y -> OAI21X1_1/B
+    185.7 ps    _2_: OAI21X1_1/Y -> NAND2X1_2/A
+    253.3 ps    _8_: NAND2X1_2/Y ->   BUFX2_2/A
+    323.1 ps  o_sum:   BUFX2_2/Y -> o_sum
+
+Path input pin i_y to output pin o_carry delay 262.361 ps
+      0.2 ps      i_y:             ->  NOR2X1_1/A
+     97.3 ps      _0_:  NOR2X1_1/Y -> OAI21X1_2/A
+    179.7 ps      _7_: OAI21X1_2/Y ->   BUFX2_1/A
+    262.4 ps  o_carry:   BUFX2_1/Y -> o_carry
+
+-----------------------------------------
+
+Number of paths analyzed:  2
+
+Top 2 minimum delay paths:
+Path input pin i_carry to output pin o_sum delay 150.103 ps
+      0.1 ps  i_carry:             -> OAI21X1_1/C
+     42.1 ps      _2_: OAI21X1_1/Y -> NAND2X1_2/A
+     83.5 ps      _8_: NAND2X1_2/Y ->   BUFX2_2/A
+    150.1 ps    o_sum:   BUFX2_2/Y -> o_sum
+
+Path input pin i_x to output pin o_carry delay 185.482 ps
+      0.2 ps      i_x:             -> NAND2X1_1/B
+     69.7 ps      _5_: NAND2X1_1/Y -> OAI21X1_2/C
+    116.6 ps      _7_: OAI21X1_2/Y ->   BUFX2_1/A
+    185.5 ps  o_carry:   BUFX2_1/Y -> o_carry
+
+-----------------------------------------
+

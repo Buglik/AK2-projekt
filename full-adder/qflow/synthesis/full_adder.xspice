@@ -1,0 +1,58 @@
+* XSpice netlist created from SPICE and liberty sources by spi2xspice.py
+*SPICE netlist created from BLIF module full_adder by blif2BSpice
+.subckt full_adder a_vdd a_gnd a_i_x a_i_y a_i_carry a_o_sum a_o_carry
+AOR2X2_1 [i_y i_x] _4_ d_lut_OR2X2
+ANAND2X1_1 [i_y i_x] _5_ d_lut_NAND2X1
+ANAND3X1_1 [_3_ _5_ _4_] _6_ d_lut_NAND3X1
+ANOR2X1_1 [i_y i_x] _0_ d_lut_NOR2X1
+AAND2X2_1 [i_y i_x] _1_ d_lut_AND2X2
+AOAI21X1_1 [_1_ _0_ i_carry] _2_ d_lut_OAI21X1
+ANAND2X1_2 [_2_ _6_] _8_ d_lut_NAND2X1
+AOAI21X1_2 [_0_ _3_ _5_] _7_ d_lut_OAI21X1
+ABUFX2_1 [_7_] o_carry d_lut_BUFX2
+ABUFX2_2 [_8_] o_sum d_lut_BUFX2
+AINVX1_1 [i_carry] _3_ d_lut_INVX1
+
+.model todig_1v8 adc_bridge(in_high=1.2 in_low=0.6 rise_delay=1n fall_delay=1n)
+.model toana_1v8 dac_bridge(out_high=1.8 out_low=0)
+
+.model ddflop d_dff(ic=0 rise_delay=100p fall_delay=100p)
+.model dzero d_pulldown(load=500f)
+.model done d_pullup(load=500f)
+
+AA2D1 [a_vdd] [vdd] todig_1v8
+AA2D2 [a_gnd] [gnd] todig_1v8
+AA2D3 [a_i_x] [i_x] todig_1v8
+AA2D4 [a_i_y] [i_y] todig_1v8
+AA2D5 [a_i_carry] [i_carry] todig_1v8
+AD2A1 [o_sum] [a_o_sum] toana_1v8
+AD2A2 [o_carry] [a_o_carry] toana_1v8
+
+.ends full_adder
+ 
+
+* OR2X2 (A+B)
+.model d_lut_OR2X2 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "0111")
+* NAND2X1 (!(A B))
+.model d_lut_NAND2X1 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "1110")
+* NAND3X1 (!((A B) C))
+.model d_lut_NAND3X1 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "11111110")
+* NOR2X1 (!(A+B))
+.model d_lut_NOR2X1 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "1000")
+* AND2X2 (A B)
+.model d_lut_AND2X2 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "0001")
+* OAI21X1 (!((A+B) C))
+.model d_lut_OAI21X1 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "11111000")
+* BUFX2 A
+.model d_lut_BUFX2 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "01")
+* INVX1 (!A)
+.model d_lut_INVX1 d_lut (rise_delay=100p fall_delay=100p input_load=500f
++ table_values "10")
+.end

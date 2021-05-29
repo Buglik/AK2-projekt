@@ -1,4 +1,5 @@
-`include "full_adder.v"
+`include "cmos_cells.v"
+`include "./build/full_adder_synth.v"
 `timescale 1 ns/10 ps  // time-unit = 1 ns, precision = 10 ps
 
 module full_adder_tb;

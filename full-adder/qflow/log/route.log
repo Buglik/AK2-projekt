@@ -1,0 +1,160 @@
+Qflow route logfile created on sob, 29 maj 2021, 15:51:47 CEST
+qrouter -noc  -s full_adder.cfg
+Qrouter detail maze router version 1.4.71.T
+Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
+LEF Read, Line 191: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 192: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 196: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 197: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 207: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 208: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 212: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 213: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 223: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 224: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 228: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 229: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 239: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 240: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 244: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 245: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 255: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 256: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 260: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 261: NOTE:  Old format VIARULE ignored.
+LEF file:  Defines site core (ignored)
+LEF read: Processed 2941 lines.
+LEF Read: encountered 0 errors and 20 warnings total.
+Vertical route layer at non-minimum pitch 1.6.  Using smaller pitch 0.8, will route on 1-of-2 tracks for layer metal6.
+Reading DEF data from file full_adder.def.
+Diagnostic: Design name: "full_adder"
+  Processed 5 vias total.
+  Processed 15 subcell instances total.
+  Processed 7 pins total.
+  Processed 14 nets total (0 fixed).
+  Processed 2 special nets total (4 fixed).
+DEF read: Processed 160 lines.
+Output scale = microns / 100, precision 1
+No antenna cell defined!
+There are 16 nets in this design.
+*** Running stage1 routing with defaults
+Finished routing net i_y
+Nets remaining: 15
+Finished routing net i_x
+Nets remaining: 14
+Finished routing net _5_
+Nets remaining: 13
+Finished routing net _3_
+Nets remaining: 12
+Finished routing net _0_
+Nets remaining: 11
+Finished routing net i_carry
+Nets remaining: 10
+Finished routing net _4_
+Nets remaining: 9
+Finished routing net _6_
+Nets remaining: 8
+Finished routing net _1_
+Nets remaining: 7
+Finished routing net _2_
+Nets remaining: 6
+Finished routing net _8_
+Nets remaining: 5
+Failed to remove stacked via at grid point 24 6.
+Failed to route net _7_
+Finished routing net o_carry
+Nets remaining: 4
+Finished routing net o_sum
+Nets remaining: 3
+
+----------------------------------------------
+Progress: Stage 1 total routes completed: 23
+Failed net routes: 1
+----------------------------------------------
+*** Running stage2 routing with options mask 10, effort 10
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 2 total routes completed: 24
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 1st round
+Finished routing net i_y
+Nets remaining: 15
+Finished routing net i_x
+Nets remaining: 14
+Finished routing net _5_
+Nets remaining: 13
+Finished routing net _3_
+Nets remaining: 12
+Finished routing net _0_
+Nets remaining: 11
+Finished routing net i_carry
+Nets remaining: 10
+Finished routing net _4_
+Nets remaining: 9
+Finished routing net _6_
+Nets remaining: 8
+Finished routing net _1_
+Nets remaining: 7
+Keeping route for net _2_
+Finished routing net _8_
+Nets remaining: 5
+Finished routing net _7_
+Nets remaining: 4
+Finished routing net o_carry
+Nets remaining: 3
+Finished routing net o_sum
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 47
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 2nd round
+Finished routing net i_y
+Nets remaining: 15
+Finished routing net i_x
+Nets remaining: 14
+Finished routing net _5_
+Nets remaining: 13
+Finished routing net _3_
+Nets remaining: 12
+Finished routing net _0_
+Nets remaining: 11
+Finished routing net i_carry
+Nets remaining: 10
+Finished routing net _4_
+Nets remaining: 9
+Finished routing net _6_
+Nets remaining: 8
+Finished routing net _1_
+Nets remaining: 7
+Keeping route for net _2_
+Finished routing net _8_
+Nets remaining: 5
+Finished routing net _7_
+Nets remaining: 4
+Finished routing net o_carry
+Nets remaining: 3
+Finished routing net o_sum
+Nets remaining: 2
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 70
+No failed routes!
+----------------------------------------------
+*** Writing DEF file full_adder_route.def
+emit_routes():  DEF file has 14 nets and 4 specialnets.
+but qrouter wants to write 16 nets and specialnets.
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+*** Writing RC file full_adder_route.rc
+Running annotate.tcl antenna.out /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.rtlnopwr.v
+  /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.spc /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.rtlnopwr.anno.v
+  /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.anno.spc  /usr/share/qflow/tech/osu018/osu018_stdcells.sp /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder_powerground
+Running annotate.tcl
+found cell FILL pinlist vdd gnd
+Done with annotate.tcl
+Router script ended on sob, 29 maj 2021, 15:51:48 CEST

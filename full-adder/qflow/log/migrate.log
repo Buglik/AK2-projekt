@@ -1,0 +1,86 @@
+Qflow migration logfile created on sob, 29 maj 2021, 15:51:49 CEST
+magic -dnull -noconsole  migrate_full_adder.tcl
+
+Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "migrate_full_adder.tcl" from command line.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+lambda:        0 x 0       (     0,  0    ), (     0,  0    )
+Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read, Line 309 (Message): Defines site core (ignored)
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "A" from metal1 to m2contact in cell XNOR2X1.
+LEF read: Processed 2941 lines.
+Reading DEF data from file full_adder.def.
+This action cannot be undone.
+  Processed 5 vias total.
+  Processed 15 subcell instances total.
+  Processed 7 pins total.
+  Processed 14 nets total.
+DEF read, Line 241 (Warning): Number of nets read (4) does not match the number declared (6).
+DEF read: Processed 242 lines.
+DEF Read: encountered 1 warning total.
+Generating LEF output full_adder.lef for cell full_adder:
+Diagnostic:  Write LEF header for cell full_adder
+Diagnostic:  Writing LEF output for cell full_adder
+Diagnostic:  Scale value is 0.100000
+Extracting OR2X2 into OR2X2.ext:
+Completed 100%
+Extracting NOR2X1 into NOR2X1.ext:
+Completed 100%
+Extracting AND2X2 into AND2X2.ext:
+Completed 100%
+Extracting NAND3X1 into NAND3X1.ext:
+Completed 100%
+Extracting INVX1 into INVX1.ext:
+Completed 100%
+Extracting OAI21X1 into OAI21X1.ext:
+Completed 100%
+Extracting FILL into FILL.ext:
+Completed 100%
+Extracting NAND2X1 into NAND2X1.ext:
+Completed 100%
+Extracting BUFX2 into BUFX2.ext:
+Completed 100%
+Extracting full_adder into full_adder.ext:
+Completed 25%
+Completed 38%
+Completed 50%
+Completed 63%
+Completed 75%
+Completed 88%
+Completed 100%
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+No port connection on port 0;  need to resolve.
+exttospice finished.
+Migration script ended on sob, 29 maj 2021, 15:51:50 CEST

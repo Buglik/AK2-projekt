@@ -1,0 +1,5 @@
+# Fill cell instances added to the design:
+Net=__spacer_nc_0 Instance=FILL_0_0_0 Cell=FILL Pin=-
+Net=__spacer_nc_1 Instance=FILL_0_0_1 Cell=FILL Pin=-
+Net=__spacer_nc_2 Instance=FILL_0_1_0 Cell=FILL Pin=-
+Net=__spacer_nc_3 Instance=FILL_0_1_1 Cell=FILL Pin=-
