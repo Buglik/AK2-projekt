@@ -43,45 +43,45 @@ VIAS 5 ;
 END VIAS
 
 COMPONENTS 15 ;
-- BUFX2_2 BUFX2 + PLACED ( 40 50 ) S ;
-- BUFX2_1 BUFX2 + PLACED ( 280 50 ) S ;
-- NAND2X1_2 NAND2X1 + PLACED ( 520 50 ) S ;
-- FILL_0_0_0 FILL + PLACED ( 760 50 ) S ;
-- FILL_0_0_1 FILL + PLACED ( 840 50 ) S ;
-- OAI21X1_1 OAI21X1 + PLACED ( 920 50 ) S ;
-- INVX1_1 INVX1 + PLACED ( 1240 50 ) FS ;
-- OAI21X1_2 OAI21X1 + PLACED ( 1400 50 ) FS ;
-- NAND3X1_1 NAND3X1 + PLACED ( 1720 50 ) FS ;
-- AND2X2_1 AND2X2 + PLACED ( 2040 50 ) S ;
-- FILL_0_1_0 FILL + PLACED ( 2360 50 ) S ;
-- FILL_0_1_1 FILL + PLACED ( 2440 50 ) S ;
-- NAND2X1_1 NAND2X1 + PLACED ( 2520 50 ) S ;
-- NOR2X1_1 NOR2X1 + PLACED ( 2760 50 ) FS ;
-- OR2X2_1 OR2X2 + PLACED ( 3000 50 ) S ;
+- AND2X2_1 AND2X2 + PLACED ( 40 50 ) FS ;
+- NOR2X1_1 NOR2X1 + PLACED ( 360 50 ) S ;
+- NAND2X1_1 NAND2X1 + PLACED ( 600 50 ) FS ;
+- FILL_0_0_0 FILL + PLACED ( 840 50 ) FS ;
+- FILL_0_0_1 FILL + PLACED ( 920 50 ) FS ;
+- OR2X2_1 OR2X2 + PLACED ( 1000 50 ) FS ;
+- NAND3X1_1 NAND3X1 + PLACED ( 1320 50 ) S ;
+- OAI21X1_2 OAI21X1 + PLACED ( 1640 50 ) S ;
+- INVX1_1 INVX1 + PLACED ( 1960 50 ) S ;
+- OAI21X1_1 OAI21X1 + PLACED ( 2120 50 ) FS ;
+- FILL_0_1_0 FILL + PLACED ( 2440 50 ) FS ;
+- FILL_0_1_1 FILL + PLACED ( 2520 50 ) FS ;
+- NAND2X1_2 NAND2X1 + PLACED ( 2600 50 ) FS ;
+- BUFX2_2 BUFX2 + PLACED ( 2840 50 ) FS ;
+- BUFX2_1 BUFX2 + PLACED ( 3080 50 ) FS ;
 END COMPONENTS
 
 PINS 7 ;
 - vdd + NET vdd
   + LAYER metal6 ( -80 -40 ) ( 80 40 )
-  + PLACED ( 800 40 ) N ;
+  + PLACED ( 880 40 ) N ;
 - gnd + NET gnd
   + LAYER metal6 ( -80 -40 ) ( 80 40 )
-  + PLACED ( 2400 40 ) N ;
+  + PLACED ( 2480 40 ) N ;
 - i_x + NET i_x
   + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( 3600 700 ) N ;
+  + PLACED ( -240 600 ) N ;
 - i_y + NET i_y
   + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( 3600 900 ) N ;
+  + PLACED ( -240 800 ) N ;
 - i_carry + NET i_carry
   + LAYER metal2 ( 0 0 ) ( 1 1 )
-  + PLACED ( 1120 1300 ) N ;
+  + PLACED ( 2080 1300 ) N ;
 - o_sum + NET o_sum
   + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( -240 600 ) N ;
+  + PLACED ( 3600 800 ) N ;
 - o_carry + NET o_carry
   + LAYER metal3 ( 0 0 ) ( 1 1 )
-  + PLACED ( -240 800 ) N ;
+  + PLACED ( 3600 600 ) N ;
 END PINS
 
 NETS 14 ;
@@ -141,20 +141,20 @@ END NETS
 
 SPECIALNETS 2 ;
 - vdd
-+ FIXED metal1 40 ( 800 50 ) ( * * ) viagen21_post
-  NEW metal2 40 ( 800 50 ) ( * * ) viagen32_post
-  NEW metal3 40 ( 800 50 ) ( * * ) viagen43_post
-  NEW metal4 40 ( 800 50 ) ( * * ) viagen54_post
-  NEW metal5 50 ( 800 50 ) ( * * ) viagen65_post
-  NEW metal6 160 ( 800 0 ) ( * 1300 )
++ FIXED metal1 40 ( 880 50 ) ( * * ) viagen21_post
+  NEW metal2 40 ( 880 50 ) ( * * ) viagen32_post
+  NEW metal3 40 ( 880 50 ) ( * * ) viagen43_post
+  NEW metal4 40 ( 880 50 ) ( * * ) viagen54_post
+  NEW metal5 50 ( 880 50 ) ( * * ) viagen65_post
+  NEW metal6 160 ( 880 0 ) ( * 1300 )
  ;
 - gnd
-+ FIXED metal1 40 ( 2400 1050 ) ( * * ) viagen21_post
-  NEW metal2 40 ( 2400 1050 ) ( * * ) viagen32_post
-  NEW metal3 40 ( 2400 1050 ) ( * * ) viagen43_post
-  NEW metal4 40 ( 2400 1050 ) ( * * ) viagen54_post
-  NEW metal5 50 ( 2400 1050 ) ( * * ) viagen65_post
-  NEW metal6 160 ( 2400 0 ) ( * 1300 )
++ FIXED metal1 40 ( 2480 1050 ) ( * * ) viagen21_post
+  NEW metal2 40 ( 2480 1050 ) ( * * ) viagen32_post
+  NEW metal3 40 ( 2480 1050 ) ( * * ) viagen43_post
+  NEW metal4 40 ( 2480 1050 ) ( * * ) viagen54_post
+  NEW metal5 50 ( 2480 1050 ) ( * * ) viagen65_post
+  NEW metal6 160 ( 2480 0 ) ( * 1300 )
  ;
 END SPECIALNETS
 END DESIGN

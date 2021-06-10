@@ -29,8 +29,4 @@ module full_adder_tb;
       x = 1; y = 1; c = 0; #period; 
       x = 1; y = 1; c = 1; #period; 
     end 
-
-  // initial begin
-  //   		 $monitor("x=%b,y=%b,c=%b,oS=%b,oC=%b \n",x,y,c,sum,o_carry );
-  // end
 endmodule

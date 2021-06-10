@@ -58,7 +58,7 @@ ENDRULES
 *last_chance.wait     : off
 *random.seed	      : 12345
 
-TWMC*chip.aspect.ratio : 1.0
+TWMC*chip.aspect.ratio : 0.75
 
 TWSC*feedThruWidth    : 80 layer 1
 TWSC*do.global.route  : on

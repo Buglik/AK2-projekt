@@ -1,4 +1,4 @@
-Qflow route logfile created on sob, 29 maj 2021, 15:51:47 CEST
+Qflow route logfile created on czw, 10 cze 2021, 16:06:08 CEST
 qrouter -noc  -s full_adder.cfg
 Qrouter detail maze router version 1.4.71.T
 Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
@@ -60,7 +60,7 @@ Finished routing net _2_
 Nets remaining: 6
 Finished routing net _8_
 Nets remaining: 5
-Failed to remove stacked via at grid point 24 6.
+Failed to remove stacked via at grid point 26 6.
 Failed to route net _7_
 Finished routing net o_carry
 Nets remaining: 4
@@ -98,17 +98,16 @@ Nets remaining: 8
 Finished routing net _1_
 Nets remaining: 7
 Keeping route for net _2_
-Finished routing net _8_
-Nets remaining: 5
-Finished routing net _7_
-Nets remaining: 4
+Keeping route for net _8_
+Failed to remove stacked via at grid point 26 6.
+Failed to route net _7_; restoring original
 Finished routing net o_carry
 Nets remaining: 3
 Finished routing net o_sum
 Nets remaining: 2
 
 ----------------------------------------------
-Progress: Stage 3 total routes completed: 47
+Progress: Stage 3 total routes completed: 45
 No failed routes!
 ----------------------------------------------
 *** Running stage3 routing with defaults, 2nd round
@@ -131,17 +130,16 @@ Nets remaining: 8
 Finished routing net _1_
 Nets remaining: 7
 Keeping route for net _2_
-Finished routing net _8_
-Nets remaining: 5
-Finished routing net _7_
-Nets remaining: 4
+Keeping route for net _8_
+Failed to remove stacked via at grid point 26 6.
+Failed to route net _7_; restoring original
 Finished routing net o_carry
 Nets remaining: 3
 Finished routing net o_sum
 Nets remaining: 2
 
 ----------------------------------------------
-Progress: Stage 3 total routes completed: 70
+Progress: Stage 3 total routes completed: 66
 No failed routes!
 ----------------------------------------------
 *** Writing DEF file full_adder_route.def
@@ -157,4 +155,4 @@ Running annotate.tcl antenna.out /home/kuba/Desktop/ak_2_Projekt/full-adder/qflo
 Running annotate.tcl
 found cell FILL pinlist vdd gnd
 Done with annotate.tcl
-Router script ended on sob, 29 maj 2021, 15:51:48 CEST
+Router script ended on czw, 10 cze 2021, 16:06:08 CEST

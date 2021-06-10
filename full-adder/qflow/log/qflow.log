@@ -1,4 +1,4 @@
-Starting new log file Sat May 29 15:51:11 2021
+Starting new log file Thu Jun 10 16:05:45 2021
 
 --------------------------------
 Qflow project setup
@@ -553,98 +553,43 @@ Creating internal representation of mux trees.
 No muxes found in this module.
 Removed 0 multiplexer ports.
 
-10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
-Optimizing cells in module \full_adder.
-Performed a total of 0 changes.
 
-10.5. Executing OPT_MERGE pass (detect identical cells).
-Finding identical cells in module `\full_adder'.
-Removed a total of 0 cells.
-
-10.6. Executing OPT_RMDFF pass (remove dff with constant values).
-
-10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
-Finding unused cells or wires in module \full_adder..
-
-10.8. Executing OPT_EXPR pass (perform const folding).
-Optimizing module full_adder.
-
-10.9. Finished OPT passes. (There is nothing left to do.)
-
-11. Executing BLIF backend.
-
-12. Printing statistics.
-
-=== full_adder ===
-
-Number of wires:                 14
-Number of wire bits:             14
-Number of public wires:          14
-Number of public wire bits:      14
-Number of memories:               0
-Number of memory bits:            0
-Number of processes:              0
-Number of cells:                 11
-AND2X2                          1
-BUFX2                           2
-INVX1                           1
-NAND2X1                         2
-NAND3X1                         1
-NOR2X1                          1
-OAI21X1                         2
-OR2X2                           1
-
-End of script. Logfile hash: a7bc383dff
-CPU: user 0.09s system 0.03s, MEM: 16.24 MB total, 10.97 MB resident
-Yosys 0.9 (git sha1 1979e0b)
-Time spent: 30% 1x share (0 sec), 10% 15x opt_expr (0 sec), ...
-Running getpowerground to determine power and ground net names.
-getpowerground.tcl  /usr/share/qflow/tech/osu018/osu018_stdcells.lef
-Cleaning up output syntax
-ypostproc.tcl full_adder_mapped.blif full_adder /usr/share/qflow/tech/osu018/osu018.sh vdd gnd
-Yosys syntax postprocessing
-Cleaning up blif file syntax
-Running blifFanout (iterative)
-Each iteration calls:
-blifFanout -l 100 -c 20 -I full_adder_nofanout -s nullstring -p /usr/share/qflow/tech/osu018/osu018_stdcells.lib -b BUFX2,CLKBUF1 -i A,A -o Y,Y tmp.blif full_adder.blif
-gates resized: 0
-
---------------------------------
-Qflow project setup
---------------------------------
-
-Technology set to osu018 from existing qflow_vars.sh file
-Regenerating files for existing project full_adder
-Qrouter detail maze router version 1.4.71.T
 LEF Read, Line 191: NOTE:  Old format VIARULE ignored.
-Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
+--------------------------------
 LEF Read, Line 192: NOTE:  Old format VIARULE ignored.
-LEF file:  Defines site core (ignored)
+Qflow project setup
 LEF Read, Line 196: NOTE:  Old format VIARULE ignored.
-LEF read: Processed 2941 lines.
+--------------------------------
 LEF Read, Line 197: NOTE:  Old format VIARULE ignored.
-LEF Read: encountered 0 errors and 20 warnings total.
+
 LEF Read, Line 207: NOTE:  Old format VIARULE ignored.
-Vertical route layer at non-minimum pitch 1.6.  Using smaller pitch 0.8, will route on 1-of-2 tracks for layer metal6.
+Technology set to osu018 from existing qflow_vars.sh file
 LEF Read, Line 208: NOTE:  Old format VIARULE ignored.
-Running blif2cel to generate input files for graywolf
+Regenerating files for existing project full_adder
 LEF Read, Line 212: NOTE:  Old format VIARULE ignored.
-blif2cel.tcl --blif /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.blif  --lef  /usr/share/qflow/tech/osu018/osu018_stdcells.lef --cel /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/layout/full_adder.cel
+Qrouter detail maze router version 1.4.71.T
 LEF Read, Line 213: NOTE:  Old format VIARULE ignored.
-No full_adder.cel1 file found for project. . . no partial blockages to apply to layout.
+Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
 LEF Read, Line 223: NOTE:  Old format VIARULE ignored.
-No full_adder.cel2 file found for project. . . continuing without pin placement hints
+LEF file:  Defines site core (ignored)
 LEF Read, Line 224: NOTE:  Old format VIARULE ignored.
-Running GrayWolf placement
+LEF read: Processed 2941 lines.
 LEF Read, Line 228: NOTE:  Old format VIARULE ignored.
-graywolf  full_adder
+LEF Read: encountered 0 errors and 20 warnings total.
 LEF Read, Line 229: NOTE:  Old format VIARULE ignored.
+Vertical route layer at non-minimum pitch 1.6.  Using smaller pitch 0.8, will route on 1-of-2 tracks for layer metal6.
 LEF Read, Line 239: NOTE:  Old format VIARULE ignored.
+Running blif2cel to generate input files for graywolf
 LEF Read, Line 240: NOTE:  Old format VIARULE ignored.
+blif2cel.tcl --blif /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.blif  --lef  /usr/share/qflow/tech/osu018/osu018_stdcells.lef --cel /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/layout/full_adder.cel
 LEF Read, Line 244: NOTE:  Old format VIARULE ignored.
+No full_adder.cel1 file found for project. . . no partial blockages to apply to layout.
 LEF Read, Line 245: NOTE:  Old format VIARULE ignored.
+No full_adder.cel2 file found for project. . . continuing without pin placement hints
 LEF Read, Line 255: NOTE:  Old format VIARULE ignored.
+Running GrayWolf placement
 LEF Read, Line 256: NOTE:  Old format VIARULE ignored.
+graywolf  full_adder
 LEF Read, Line 260: NOTE:  Old format VIARULE ignored.
 LEF Read, Line 261: NOTE:  Old format VIARULE ignored.
 Running getfillcell to determine cell to use for fill.
@@ -654,6 +599,44 @@ Running place2def to translate graywolf output to DEF format.
 place2def.tcl full_adder FILL
 Running addspacers to generate power stripes and align cell right edge
 addspacers.tcl  -stripe 2.0 50.0 PG full_adder  /usr/share/qflow/tech/osu018/osu018_stdcells.lef FILL
+Running arrangepins to adjust pin positions for optimal routing.
+arrangepins.tcl  full_adder
+Reading info file full_adder.info. . .
+Reading DEF file full_adder.def. . .
+can't use empty string as operand of "-"
+while executing
+"- $lastyrow $prevyrow"
+invoked from within
+"if [regexp {[ \t]*END[ \t]+COMPONENTS} $line lmatch] {
+set incomps false
+if $debug {puts stdout "end components section"}
+
+# Sort the r..."
+invoked from within
+"if $innets {
+if [regexp {[ \t]*END[ \t]+NETS} $line lmatch] {
+if $debug {puts stdout "end nets section"}
+set innets false
+} elseif [regexp..."
+("while" body line 24)
+invoked from within
+"while {[gets $fdef line] >= 0} {
+if [regexp {[ \t]*#} $line lmatch] {
+continue
+} elseif [regexp {[ \t]*UNITS[ \t]+DISTANCE[ \t]+MICRON..."
+(file "/usr/lib/qflow/scripts/arrangepins.tcl" line 99)
+Error (ignoring):
+arrangepins.tcl failed to generate file full_adder_mod.def.
+blifanno.tcl /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.blif full_adder.def /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder_anno.blif
+Generating RTL verilog and SPICE netlist file in directory
+/home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis
+Files:
+Verilog: /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.rtl.v
+Verilog: /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.rtlnopwr.v
+Verilog: /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.rtlbb.v
+Spice:   /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.spc
+Copying full_adder.rtl.v, full_adder.rtlnopwr.v, and full_adder.rtlbb.v to backups
+Running blif2Verilog.
 
 --------------------------------
 Qflow project setup
@@ -677,6 +660,29 @@ Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
 Starting magic under Tcl interpreter
 Using the terminal as the console.
 Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "migrate_full_adder.tcl" from command line.
+Root cell box:
+width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+lambda:        0 x 0       (     0,  0    ), (     0,  0    )
+Reading LEF data from file /usr/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read, Line 309 (Message): Defines site core (ignored)
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
+Moving label "A" from metal1 to m2contact in cell XNOR2X1.
+
 
 --------------------------------
 Qflow project setup
@@ -692,13 +698,7 @@ Starting magic under Tcl interpreter
 Using the terminal as the console.
 Using NULL graphics device.
 Processing system .magicrc file
-
---------------------------------
-Qflow project setup
---------------------------------
-
-Technology set to osu018 from existing qflow_vars.sh file
-Regenerating files for existing project full_adder
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
 
 --------------------------------
 Qflow project setup
@@ -724,17 +724,4 @@ Contact size value ignored (using GDS generation rules).
 Loading "/home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/layout/generate_gds_full_adder.tcl" from command line.
 Root cell box:
 width x height  (   llx,  lly  ), (   urx,  ury  )
-
-microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
-lambda:        0 x 0       (     0,  0    ), (     0,  0    )
-Warning: Calma reading is not undoable!  I hope that's OK.
-Library written using GDS-II Release 3.0
-Library name: iit_stdcells
-Reading "FILL".
-Moving label "vdd" from space to metal1 in cell FILL.
-Moving label "gnd" from space to metal1 in cell FILL.
-Reading "AND2X1".
-Warning at line 0 of CIF file: Input off lambda grid by 1/2; snapped to grid.
-Warning at line 0 of CIF file: Input off lambda grid by 1/2; snapped to grid.
-Warning at line 0 of CIF file: Input off lambda grid by 1/2; snapped to grid.
 

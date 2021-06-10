@@ -1,4 +1,4 @@
-Qflow placement logfile created on sob, 29 maj 2021, 15:51:40 CEST
+Qflow placement logfile created on czw, 10 cze 2021, 16:06:00 CEST
 Running blif2cel to generate input files for graywolf
 blif2cel.tcl --blif /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.blif  --lef  /usr/share/qflow/tech/osu018/osu018_stdcells.lef --cel /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/layout/full_adder.cel 
 Opened BLIF file (/home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/synthesis/full_adder.blif) for reading ...
@@ -100,7 +100,7 @@ Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90 
  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 
 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 
-121 122 123 124 125 126 127 128 129 130 131 
+121 122 123 124 125 126 127 128 129 130 131 132 133 
  block left edge is at -239
  the longest block length is 2960
  building the steiner trees
@@ -113,23 +113,7 @@ Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =    7
- removing redundant feed-through pins
- the connectivity of all the nets is verified
-
- block left edge is at -239
- the longest block length is 2960
- building the steiner trees
- rebuilding the steiner tree
-
-----start doing coarse global routing ------ 
- ITERATION  1
-
-  longest Row is:1   Its length is:2960
- doing feed-through pins assignment
- building the net-tree now !
- set up the global routing grids
- the starting value of tracks =    7
+ the starting value of tracks =    8
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
@@ -161,23 +145,7 @@ Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =    7
- removing redundant feed-through pins
- the connectivity of all the nets is verified
-
- block left edge is at -239
- the longest block length is 2960
- building the steiner trees
- rebuilding the steiner tree
-
-----start doing coarse global routing ------ 
- ITERATION  1
-
-  longest Row is:1   Its length is:2960
- doing feed-through pins assignment
- building the net-tree now !
- set up the global routing grids
- the starting value of tracks =    7
+ the starting value of tracks =    8
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
@@ -209,7 +177,7 @@ Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =    7
+ the starting value of tracks =    8
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
@@ -225,13 +193,45 @@ Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =    7
+ the starting value of tracks =    8
+ removing redundant feed-through pins
+ the connectivity of all the nets is verified
+
+ block left edge is at -239
+ the longest block length is 2960
+ building the steiner trees
+ rebuilding the steiner tree
+
+----start doing coarse global routing ------ 
+ ITERATION  1
+
+  longest Row is:1   Its length is:2960
+ doing feed-through pins assignment
+ building the net-tree now !
+ set up the global routing grids
+ the starting value of tracks =    8
+ removing redundant feed-through pins
+ the connectivity of all the nets is verified
+
+ block left edge is at -239
+ the longest block length is 2960
+ building the steiner trees
+ rebuilding the steiner tree
+
+----start doing coarse global routing ------ 
+ ITERATION  1
+
+  longest Row is:1   Its length is:2960
+ doing feed-through pins assignment
+ building the net-tree now !
+ set up the global routing grids
+ the starting value of tracks =    8
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
 
 ***********************************************
-*ACTUAL* FINAL NUMBER OF ROUTING TRACKS: 7
+*ACTUAL* FINAL NUMBER OF ROUTING TRACKS: 8
 ***********************************************
 
 
@@ -318,4 +318,4 @@ Files:
 
 Running blif2Verilog.
 Running blif2BSpice.
-Placement script ended on sob, 29 maj 2021, 15:51:46 CEST
+Placement script ended on czw, 10 cze 2021, 16:06:07 CEST

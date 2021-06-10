@@ -1,4 +1,4 @@
-Qflow migration logfile created on sob, 29 maj 2021, 15:51:49 CEST
+Qflow migration logfile created on czw, 10 cze 2021, 16:06:09 CEST
 magic -dnull -noconsole  migrate_full_adder.tcl
 
 Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
@@ -34,30 +34,30 @@ This action cannot be undone.
   Processed 15 subcell instances total.
   Processed 7 pins total.
   Processed 14 nets total.
-DEF read, Line 241 (Warning): Number of nets read (4) does not match the number declared (6).
-DEF read: Processed 242 lines.
+DEF read, Line 238 (Warning): Number of nets read (4) does not match the number declared (6).
+DEF read: Processed 239 lines.
 DEF Read: encountered 1 warning total.
 Generating LEF output full_adder.lef for cell full_adder:
 Diagnostic:  Write LEF header for cell full_adder
 Diagnostic:  Writing LEF output for cell full_adder
 Diagnostic:  Scale value is 0.100000
-Extracting OR2X2 into OR2X2.ext:
-Completed 100%
-Extracting NOR2X1 into NOR2X1.ext:
-Completed 100%
-Extracting AND2X2 into AND2X2.ext:
-Completed 100%
-Extracting NAND3X1 into NAND3X1.ext:
+Extracting BUFX2 into BUFX2.ext:
 Completed 100%
 Extracting INVX1 into INVX1.ext:
 Completed 100%
 Extracting OAI21X1 into OAI21X1.ext:
 Completed 100%
+Extracting NAND3X1 into NAND3X1.ext:
+Completed 100%
+Extracting OR2X2 into OR2X2.ext:
+Completed 100%
 Extracting FILL into FILL.ext:
 Completed 100%
 Extracting NAND2X1 into NAND2X1.ext:
 Completed 100%
-Extracting BUFX2 into BUFX2.ext:
+Extracting NOR2X1 into NOR2X1.ext:
+Completed 100%
+Extracting AND2X2 into AND2X2.ext:
 Completed 100%
 Extracting full_adder into full_adder.ext:
 Completed 25%
@@ -83,4 +83,4 @@ No port connection on port 0;  need to resolve.
 No port connection on port 0;  need to resolve.
 No port connection on port 0;  need to resolve.
 exttospice finished.
-Migration script ended on sob, 29 maj 2021, 15:51:50 CEST
+Migration script ended on czw, 10 cze 2021, 16:06:10 CEST

@@ -1,5 +1,5 @@
 
-Qflow static timing analysis logfile appended on sob, 29 maj 2021, 15:51:49 CEST
+Qflow static timing analysis logfile appended on czw, 10 cze 2021, 16:06:09 CEST
 Converting qrouter output to vesta delay format
 Running rc2dly -r full_adder.rc -l /usr/share/qflow/tech/osu018/osu018_stdcells.lib -d full_adder.dly
 Converting qrouter output to SPEF delay format
@@ -34,35 +34,35 @@ Design meets minimum hold timing.
 Number of paths analyzed:  2
 
 Top 2 maximum delay paths:
-Path input pin i_y to output pin o_sum delay 323.07 ps
+Path input pin i_y to output pin o_sum delay 322.162 ps
       0.2 ps    i_y:             ->  NOR2X1_1/A
      97.4 ps    _0_:  NOR2X1_1/Y -> OAI21X1_1/B
     185.7 ps    _2_: OAI21X1_1/Y -> NAND2X1_2/A
-    253.3 ps    _8_: NAND2X1_2/Y ->   BUFX2_2/A
-    323.1 ps  o_sum:   BUFX2_2/Y -> o_sum
+    252.3 ps    _8_: NAND2X1_2/Y ->   BUFX2_2/A
+    322.2 ps  o_sum:   BUFX2_2/Y -> o_sum
 
-Path input pin i_y to output pin o_carry delay 262.361 ps
+Path input pin i_y to output pin o_carry delay 262.858 ps
       0.2 ps      i_y:             ->  NOR2X1_1/A
      97.3 ps      _0_:  NOR2X1_1/Y -> OAI21X1_2/A
-    179.7 ps      _7_: OAI21X1_2/Y ->   BUFX2_1/A
-    262.4 ps  o_carry:   BUFX2_1/Y -> o_carry
+    180.3 ps      _7_: OAI21X1_2/Y ->   BUFX2_1/A
+    262.9 ps  o_carry:   BUFX2_1/Y -> o_carry
 
 -----------------------------------------
 
 Number of paths analyzed:  2
 
 Top 2 minimum delay paths:
-Path input pin i_carry to output pin o_sum delay 150.103 ps
+Path input pin i_carry to output pin o_sum delay 149.33 ps
       0.1 ps  i_carry:             -> OAI21X1_1/C
      42.1 ps      _2_: OAI21X1_1/Y -> NAND2X1_2/A
-     83.5 ps      _8_: NAND2X1_2/Y ->   BUFX2_2/A
-    150.1 ps    o_sum:   BUFX2_2/Y -> o_sum
+     82.6 ps      _8_: NAND2X1_2/Y ->   BUFX2_2/A
+    149.3 ps    o_sum:   BUFX2_2/Y -> o_sum
 
-Path input pin i_x to output pin o_carry delay 185.482 ps
+Path input pin i_x to output pin o_carry delay 185.761 ps
       0.2 ps      i_x:             -> NAND2X1_1/B
      69.7 ps      _5_: NAND2X1_1/Y -> OAI21X1_2/C
-    116.6 ps      _7_: OAI21X1_2/Y ->   BUFX2_1/A
-    185.5 ps  o_carry:   BUFX2_1/Y -> o_carry
+    117.1 ps      _7_: OAI21X1_2/Y ->   BUFX2_1/A
+    185.8 ps  o_carry:   BUFX2_1/Y -> o_carry
 
 -----------------------------------------
 

@@ -1,10 +1,11 @@
 files = full_adder_tb.v
 
-.PHONY: qflow synth
+.PHONY: sym qflow synth
 
 sym: compile waveform letTheShowBegin
 synthG: synth graph
 synth_sym: synth synth_waves
+synth_sym_analog: synth synth_anal
 
 compile:
 # https://iverilog.fandom.com/wiki/Installation_Guide#Ubuntu_Linux
@@ -35,6 +36,10 @@ synth_waves:
 	@cd ./yosys/build && vvp ./dsn.out
 	@echo "Show waves ..."
 	@cd ./yosys/build && gtkwave ./test_bench.vcd --rcvar 'enable_vcd_autosave yes' --rcvar 'do_initial_zoom_fit yes'
+
+synth_anal:
+	@echo "Show analog waves ..."
+	@cd ./yosys && ngspice full_adder_synth_tb.sp
 
 qflow:
 	@echo "Run Qflow process ..."

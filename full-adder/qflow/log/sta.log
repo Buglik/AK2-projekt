@@ -1,5 +1,5 @@
 
-Qflow static timing analysis logfile appended on sob, 29 maj 2021, 15:51:46 CEST
+Qflow static timing analysis logfile appended on czw, 10 cze 2021, 16:06:07 CEST
 Running vesta static timing analysis
 vesta --long full_adder.rtlnopwr.v /usr/share/qflow/tech/osu018/osu018_stdcells.lib
 ----------------------------------------------

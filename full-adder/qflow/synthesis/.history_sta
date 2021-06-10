@@ -1,0 +1,116 @@
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdc full_adder.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdf full_adder.sdf
+read_sdc full_adder_post.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdc full_adder.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdf full_adder.sdf
+read_sdc full_adder_post.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdf full_adder.sdf
+read_sdc full_adder_post.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdc full_adder.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdf full_adder.sdf
+read_sdc full_adder_post.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdc full_adder.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdf full_adder.sdf
+read_sdc full_adder_post.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdc full_adder.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit
+read_liberty -min /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_liberty -max /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog full_adder.rtlnopwr.v
+link_design full_adder
+read_sdf full_adder.sdf
+read_sdc full_adder_post.sdc
+check_setup
+report_annotated_check
+report_annotated_delay
+report_checks -path_delay min_max -group_count 1000
+exit

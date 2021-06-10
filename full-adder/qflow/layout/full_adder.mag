@@ -1,285 +1,283 @@
 magic
 tech scmos
-timestamp 1622296310
+timestamp 1623333969
 << metal1 >>
-rect 232 103 234 107
-rect 238 103 241 107
-rect 245 103 248 107
-rect 70 68 97 71
-rect 230 68 238 71
-rect 278 71 281 78
-rect 270 68 281 71
-rect 318 68 326 71
-rect 54 61 57 68
-rect 54 58 65 61
-rect 134 58 150 61
-rect 250 58 265 61
-rect 174 56 178 58
-rect 154 38 155 42
-rect 182 28 185 38
-rect 72 3 74 7
-rect 78 3 81 7
-rect 85 3 88 7
+rect 240 103 242 107
+rect 246 103 249 107
+rect 253 103 256 107
+rect 54 71 57 81
+rect 90 78 105 81
+rect 54 68 62 71
+rect 82 68 113 71
+rect 238 68 265 71
+rect 70 58 86 61
+rect 186 58 201 61
+rect 270 58 289 61
+rect 158 56 162 58
+rect 181 28 182 32
+rect 80 3 82 7
+rect 86 3 89 7
+rect 93 3 96 7
 << m2contact >>
-rect 234 103 238 107
-rect 241 103 245 107
-rect 206 88 210 92
-rect 30 78 34 82
-rect 126 78 130 82
-rect 278 78 282 82
-rect 326 78 330 82
+rect 242 103 246 107
+rect 249 103 253 107
 rect 6 68 10 72
-rect 54 68 58 72
-rect 118 68 122 72
-rect 142 68 146 72
-rect 238 68 242 72
+rect 86 78 90 82
+rect 206 78 210 82
+rect 302 78 306 82
+rect 62 68 66 72
+rect 78 68 82 72
+rect 190 68 194 72
+rect 214 68 218 72
 rect 326 68 330 72
-rect 22 58 26 62
-rect 46 58 50 62
-rect 110 58 114 62
+rect 14 58 18 62
+rect 30 58 34 62
+rect 38 58 42 62
+rect 86 58 90 62
 rect 150 58 154 62
-rect 174 58 178 62
+rect 158 58 162 62
 rect 182 58 186 62
 rect 222 58 226 62
-rect 246 58 250 62
-rect 294 58 298 62
-rect 54 48 58 52
-rect 94 48 98 52
+rect 310 58 314 62
+rect 46 48 50 52
+rect 78 48 82 52
 rect 166 48 170 52
-rect 254 48 258 52
-rect 286 48 290 52
-rect 150 38 154 42
-rect 182 38 186 42
-rect 190 38 194 42
-rect 302 38 306 42
-rect 74 3 78 7
-rect 81 3 85 7
-<< metal2 >>
-rect 110 102 113 131
-rect 232 103 234 107
-rect 238 103 241 107
-rect 245 103 248 107
-rect 30 82 33 88
-rect 6 62 9 68
-rect 54 62 57 68
-rect 26 58 30 61
-rect 46 42 49 58
-rect 94 52 97 98
-rect 126 82 129 98
-rect 206 82 209 88
-rect 118 72 121 78
-rect 238 72 241 88
-rect 278 82 281 88
-rect 326 82 329 88
-rect 322 68 326 71
-rect 110 52 113 58
-rect 142 52 145 68
-rect 150 62 153 68
-rect 174 62 177 68
-rect 222 62 225 68
-rect 186 58 190 61
-rect 242 58 246 61
-rect 166 52 169 58
-rect 254 52 257 68
-rect 294 62 297 68
-rect 286 52 289 58
-rect 54 32 57 48
-rect 302 42 305 48
-rect 154 38 158 41
-rect 194 38 198 41
-rect 182 32 185 38
-rect 72 3 74 7
-rect 78 3 81 7
-rect 85 3 88 7
-<< m3contact >>
-rect 234 103 238 107
-rect 241 103 245 107
-rect 94 98 98 102
-rect 110 98 114 102
-rect 126 98 130 102
-rect 30 88 34 92
-rect 6 58 10 62
-rect 30 58 34 62
-rect 54 58 58 62
-rect 238 88 242 92
-rect 278 88 282 92
-rect 326 88 330 92
-rect 118 78 122 82
-rect 206 78 210 82
-rect 150 68 154 72
-rect 174 68 178 72
-rect 222 68 226 72
-rect 254 68 258 72
-rect 294 68 298 72
-rect 318 68 322 72
-rect 166 58 170 62
-rect 190 58 194 62
-rect 238 58 242 62
-rect 286 58 290 62
-rect 110 48 114 52
-rect 142 48 146 52
-rect 302 48 306 52
-rect 46 38 50 42
-rect 158 38 162 42
-rect 198 38 202 42
-rect 54 28 58 32
+rect 238 48 242 52
+rect 278 48 282 52
+rect 126 38 130 42
+rect 142 38 146 42
+rect 150 28 154 32
 rect 182 28 186 32
-rect 74 3 78 7
-rect 81 3 85 7
+rect 82 3 86 7
+rect 89 3 93 7
+<< metal2 >>
+rect 206 92 209 131
+rect 240 103 242 107
+rect 246 103 249 107
+rect 253 103 256 107
+rect 206 82 209 88
+rect 6 72 9 78
+rect 62 72 65 78
+rect 86 72 89 78
+rect 66 68 70 71
+rect 210 68 214 71
+rect 14 62 17 68
+rect 30 62 33 68
+rect 38 62 41 68
+rect 78 62 81 68
+rect 158 62 161 68
+rect 182 62 185 68
+rect 90 58 94 61
+rect 146 58 150 61
+rect 78 52 81 58
+rect 166 52 169 58
+rect 190 52 193 68
+rect 222 52 225 58
+rect 238 52 241 88
+rect 302 82 305 88
+rect 326 62 329 68
+rect 46 42 49 48
+rect 278 42 281 48
+rect 138 38 142 41
+rect 126 32 129 38
+rect 150 32 153 38
+rect 310 32 313 58
+rect 182 22 185 28
+rect 80 3 82 7
+rect 86 3 89 7
+rect 93 3 96 7
+<< m3contact >>
+rect 242 103 246 107
+rect 249 103 253 107
+rect 206 88 210 92
+rect 238 88 242 92
+rect 302 88 306 92
+rect 6 78 10 82
+rect 62 78 66 82
+rect 14 68 18 72
+rect 30 68 34 72
+rect 38 68 42 72
+rect 70 68 74 72
+rect 86 68 90 72
+rect 158 68 162 72
+rect 182 68 186 72
+rect 206 68 210 72
+rect 78 58 82 62
+rect 94 58 98 62
+rect 142 58 146 62
+rect 166 58 170 62
+rect 326 58 330 62
+rect 190 48 194 52
+rect 222 48 226 52
+rect 46 38 50 42
+rect 134 38 138 42
+rect 150 38 154 42
+rect 278 38 282 42
+rect 126 28 130 32
+rect 310 28 314 32
+rect 182 18 186 22
+rect 82 3 86 7
+rect 89 3 93 7
 << metal3 >>
-rect 232 103 234 107
-rect 238 103 241 107
-rect 246 103 248 107
-rect 98 98 110 101
-rect 114 98 126 101
-rect 242 88 278 91
-rect 282 88 326 91
-rect 330 88 361 91
-rect 30 81 33 88
-rect -26 78 33 81
-rect 122 78 206 81
-rect 154 68 174 71
-rect 226 68 254 71
-rect 258 68 294 71
-rect 298 68 318 71
-rect 322 68 361 71
-rect -26 58 6 61
-rect 34 58 54 61
-rect 170 58 190 61
-rect 194 58 238 61
-rect 114 48 142 51
-rect 286 51 289 58
-rect 146 48 289 51
-rect 50 38 158 41
-rect 302 41 305 48
-rect 202 38 305 41
-rect 58 28 182 31
-rect 72 3 74 7
-rect 78 3 81 7
-rect 86 3 88 7
+rect 240 103 242 107
+rect 246 103 249 107
+rect 254 103 256 107
+rect 210 88 238 91
+rect -26 78 6 81
+rect 10 78 62 81
+rect 302 81 305 88
+rect 302 78 361 81
+rect 26 68 30 71
+rect 74 68 86 71
+rect 162 68 182 71
+rect 202 68 206 71
+rect 14 61 17 68
+rect 38 61 41 68
+rect -26 58 78 61
+rect 98 58 142 61
+rect 146 58 166 61
+rect 330 58 361 61
+rect 46 48 190 51
+rect 194 48 222 51
+rect 46 42 49 48
+rect 126 38 134 41
+rect 154 38 278 41
+rect 126 32 129 38
+rect 182 28 310 31
+rect 182 22 185 28
+rect 80 3 82 7
+rect 86 3 89 7
+rect 94 3 96 7
 << m4contact >>
-rect 234 103 238 107
-rect 242 103 245 107
-rect 245 103 246 107
-rect 74 3 78 7
-rect 82 3 85 7
-rect 85 3 86 7
+rect 242 103 246 107
+rect 250 103 253 107
+rect 253 103 254 107
+rect 22 68 26 72
+rect 198 68 202 72
+rect 82 3 86 7
+rect 90 3 93 7
+rect 93 3 94 7
 << metal4 >>
-rect 232 103 234 107
-rect 238 103 241 107
-rect 246 103 248 107
-rect 72 3 74 7
-rect 78 3 81 7
-rect 86 3 88 7
+rect 240 103 242 107
+rect 246 103 249 107
+rect 254 103 256 107
+rect 26 68 30 71
+rect 194 68 198 71
+rect 80 3 82 7
+rect 86 3 89 7
+rect 94 3 96 7
 << m5contact >>
-rect 234 103 238 107
-rect 241 103 242 107
-rect 242 103 245 107
-rect 74 3 78 7
-rect 81 3 82 7
-rect 82 3 85 7
+rect 242 103 246 107
+rect 249 103 250 107
+rect 250 103 253 107
+rect 30 68 34 72
+rect 190 68 194 72
+rect 82 3 86 7
+rect 89 3 90 7
+rect 90 3 93 7
 << metal5 >>
-rect 238 103 241 107
-rect 238 102 242 103
-rect 78 3 81 7
-rect 78 2 82 3
+rect 246 103 249 107
+rect 246 102 250 103
+rect 34 68 190 71
+rect 86 3 89 7
+rect 86 2 90 3
 << m6contact >>
-rect 232 107 238 108
-rect 242 107 248 108
-rect 232 103 234 107
-rect 234 103 238 107
-rect 242 103 245 107
-rect 245 103 248 107
-rect 232 102 238 103
-rect 242 102 248 103
-rect 72 7 78 8
-rect 82 7 88 8
-rect 72 3 74 7
-rect 74 3 78 7
-rect 82 3 85 7
-rect 85 3 88 7
-rect 72 2 78 3
-rect 82 2 88 3
+rect 240 107 246 108
+rect 250 107 256 108
+rect 240 103 242 107
+rect 242 103 246 107
+rect 250 103 253 107
+rect 253 103 256 107
+rect 240 102 246 103
+rect 250 102 256 103
+rect 80 7 86 8
+rect 90 7 96 8
+rect 80 3 82 7
+rect 82 3 86 7
+rect 90 3 93 7
+rect 93 3 96 7
+rect 80 2 86 3
+rect 90 2 96 3
 << metal6 >>
-rect 72 8 88 130
-rect 78 2 82 8
-rect 72 0 88 2
-rect 232 108 248 130
-rect 238 102 242 108
-rect 232 0 248 102
-use BUFX2  BUFX2_2
-timestamp 1622296310
-transform -1 0 28 0 -1 105
+rect 80 8 96 130
+rect 86 2 90 8
+rect 80 0 96 2
+rect 240 108 256 130
+rect 246 102 250 108
+rect 240 0 256 102
+use AND2X2  AND2X2_1
+timestamp 1623333969
+transform 1 0 4 0 -1 105
+box -2 -3 34 103
+use NOR2X1  NOR2X1_1
+timestamp 1623333969
+transform -1 0 60 0 -1 105
 box -2 -3 26 103
-use BUFX2  BUFX2_1
-timestamp 1622296310
-transform -1 0 52 0 -1 105
-box -2 -3 26 103
-use NAND2X1  NAND2X1_2
-timestamp 1622296310
-transform -1 0 76 0 -1 105
+use NAND2X1  NAND2X1_1
+timestamp 1623333969
+transform 1 0 60 0 -1 105
 box -2 -3 26 103
 use FILL  FILL_0_0_0
-timestamp 1622296310
-transform -1 0 84 0 -1 105
+timestamp 1623333969
+transform 1 0 84 0 -1 105
 box -2 -3 10 103
 use FILL  FILL_0_0_1
-timestamp 1622296310
-transform -1 0 92 0 -1 105
+timestamp 1623333969
+transform 1 0 92 0 -1 105
 box -2 -3 10 103
-use OAI21X1  OAI21X1_1
-timestamp 1622296310
-transform -1 0 124 0 -1 105
-box -2 -3 34 103
-use INVX1  INVX1_1
-timestamp 1622296310
-transform 1 0 124 0 -1 105
-box -2 -3 18 103
-use OAI21X1  OAI21X1_2
-timestamp 1622296310
-transform 1 0 140 0 -1 105
+use OR2X2  OR2X2_1
+timestamp 1623333969
+transform 1 0 100 0 -1 105
 box -2 -3 34 103
 use NAND3X1  NAND3X1_1
-timestamp 1622296310
-transform 1 0 172 0 -1 105
+timestamp 1623333969
+transform -1 0 164 0 -1 105
 box -2 -3 34 103
-use AND2X2  AND2X2_1
-timestamp 1622296310
-transform -1 0 236 0 -1 105
+use OAI21X1  OAI21X1_2
+timestamp 1623333969
+transform -1 0 196 0 -1 105
+box -2 -3 34 103
+use INVX1  INVX1_1
+timestamp 1623333969
+transform -1 0 212 0 -1 105
+box -2 -3 18 103
+use OAI21X1  OAI21X1_1
+timestamp 1623333969
+transform 1 0 212 0 -1 105
 box -2 -3 34 103
 use FILL  FILL_0_1_0
-timestamp 1622296310
-transform -1 0 244 0 -1 105
+timestamp 1623333969
+transform 1 0 244 0 -1 105
 box -2 -3 10 103
 use FILL  FILL_0_1_1
-timestamp 1622296310
-transform -1 0 252 0 -1 105
+timestamp 1623333969
+transform 1 0 252 0 -1 105
 box -2 -3 10 103
-use NAND2X1  NAND2X1_1
-timestamp 1622296310
-transform -1 0 276 0 -1 105
+use NAND2X1  NAND2X1_2
+timestamp 1623333969
+transform 1 0 260 0 -1 105
 box -2 -3 26 103
-use NOR2X1  NOR2X1_1
-timestamp 1622296310
-transform 1 0 276 0 -1 105
+use BUFX2  BUFX2_2
+timestamp 1623333969
+transform 1 0 284 0 -1 105
 box -2 -3 26 103
-use OR2X2  OR2X2_1
-timestamp 1622296310
-transform -1 0 332 0 -1 105
-box -2 -3 34 103
+use BUFX2  BUFX2_1
+timestamp 1623333969
+transform 1 0 308 0 -1 105
+box -2 -3 26 103
 << labels >>
-flabel metal6 s 72 0 88 8 7 FreeSans 24 270 0 0 vdd
+flabel metal6 s 80 0 96 8 7 FreeSans 24 270 0 0 vdd
 port 0 nsew
-flabel metal6 s 232 0 248 8 7 FreeSans 24 270 0 0 gnd
+flabel metal6 s 240 0 256 8 7 FreeSans 24 270 0 0 gnd
 port 1 nsew
-flabel metal3 s 360 70 360 70 3 FreeSans 24 270 0 0 i_x
+flabel metal3 s -24 60 -24 60 7 FreeSans 24 270 0 0 i_x
 port 2 nsew
-flabel metal3 s 360 90 360 90 3 FreeSans 24 270 0 0 i_y
+flabel metal3 s -24 80 -24 80 7 FreeSans 24 270 0 0 i_y
 port 3 nsew
-flabel metal2 s 112 130 112 130 3 FreeSans 24 90 0 0 i_carry
+flabel metal2 s 208 130 208 130 3 FreeSans 24 90 0 0 i_carry
 port 4 nsew
-flabel metal3 s -24 60 -24 60 7 FreeSans 24 270 0 0 o_sum
+flabel metal3 s 360 80 360 80 3 FreeSans 24 270 0 0 o_sum
 port 5 nsew
-flabel metal3 s -24 80 -24 80 7 FreeSans 24 270 0 0 o_carry
+flabel metal3 s 360 60 360 60 3 FreeSans 24 270 0 0 o_carry
 port 6 nsew
 << end >>

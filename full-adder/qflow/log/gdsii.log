@@ -1,4 +1,4 @@
-Qflow gdsii logfile created on sob, 29 maj 2021, 15:51:52 CEST
+Qflow gdsii logfile created on czw, 10 cze 2021, 16:06:11 CEST
 magic -dnull -noconsole  /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/layout/generate_gds_full_adder.tcl
 
 Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
@@ -323,5 +323,5 @@ Moving label "vdd" from space to metal1 in cell CLKBUF3.
 Moving label "A" from space to metal1 in cell CLKBUF3.
 Moving label "Y" from space to metal1 in cell CLKBUF3.
 Reading "iit_stdcells".
-Processing timestamp mismatches: OR2X2, NOR2X1, NAND2X1, FILL, AND2X2, NAND3X1, OAI21X1, INVX1, BUFX2.
-GDS generating script ended on sob, 29 maj 2021, 15:51:53 CEST
+Processing timestamp mismatches: BUFX2, NAND2X1, FILL, OAI21X1, INVX1, NAND3X1, OR2X2, NOR2X1, AND2X2.
+GDS generating script ended on czw, 10 cze 2021, 16:06:12 CEST

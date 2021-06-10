@@ -1,4 +1,4 @@
-Qflow LVS logfile created on sob, 29 maj 2021, 15:51:51 CEST
+Qflow LVS logfile created on czw, 10 cze 2021, 16:06:11 CEST
 netgen ${lvs_options} -batch lvs "${rootname}.spice ${rootname}" 
 	"${synthdir}/${rootname}.spc ${rootname}" ${setup_script} ${outfile} 
 	-json -blackbox
@@ -128,4 +128,4 @@ LVS Done.
 LVS reports no net, device, pin, or property mismatches.
 
 Total errors = 0
-LVS checking script ended on sob, 29 maj 2021, 15:51:52 CEST
+LVS checking script ended on czw, 10 cze 2021, 16:06:11 CEST

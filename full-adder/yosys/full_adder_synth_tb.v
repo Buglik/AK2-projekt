@@ -1,4 +1,5 @@
-`include "cmos_cells.v"
+// `include "../libs/freepdk-45nm/stdcells.v"
+`include "../libs/osu018/osu018_stdcells.v"
 `include "./build/full_adder_synth.v"
 `timescale 1 ns/10 ps  // time-unit = 1 ns, precision = 10 ps
 

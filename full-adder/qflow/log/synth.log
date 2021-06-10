@@ -1,4 +1,4 @@
-Qflow synthesis logfile created on sob, 29 maj 2021, 15:51:36 CEST
+Qflow synthesis logfile created on czw, 10 cze 2021, 16:05:58 CEST
 Running yosys for verilog parsing and synthesis
 yosys  -s full_adder.ys
 
@@ -588,9 +588,9 @@ Optimizing module full_adder.
      OR2X2                           1
 
 End of script. Logfile hash: a7bc383dff
-CPU: user 0.09s system 0.03s, MEM: 16.24 MB total, 10.97 MB resident
+CPU: user 0.09s system 0.02s, MEM: 16.24 MB total, 10.95 MB resident
 Yosys 0.9 (git sha1 1979e0b)
-Time spent: 30% 1x share (0 sec), 10% 15x opt_expr (0 sec), ...
+Time spent: 23% 1x share (0 sec), 13% 4x read_verilog (0 sec), ...
 Running getpowerground to determine power and ground net names.
 getpowerground.tcl  /usr/share/qflow/tech/osu018/osu018_stdcells.lef
 Cleaning up output syntax
@@ -636,4 +636,4 @@ Running blif2BSpice.
 Running spi2xspice.py
 spi2xspice.py "/usr/share/qflow/tech/osu018/osu018_stdcells.lib" -io_time=1n -time=100p -idelay=10p -odelay=100p -cload=500f full_adder.spc full_adder.xspice
 
-Synthesis script ended on sob, 29 maj 2021, 15:51:39 CEST
+Synthesis script ended on czw, 10 cze 2021, 16:06:00 CEST

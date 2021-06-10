@@ -1,4 +1,4 @@
-Qflow DRC logfile created on sob, 29 maj 2021, 15:51:50 CEST
+Qflow DRC logfile created on czw, 10 cze 2021, 16:06:10 CEST
 magic -dnull -noconsole  /home/kuba/Desktop/ak_2_Projekt/full-adder/qflow/layout/run_drc_full_adder.tcl
 
 Magic 8.2 revision 157 - Compiled on Thu, 07 Nov 2019 21:14:45 +0100.
@@ -23,6 +23,6 @@ Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
 Moving label "CLK" from metal1 to m2contact in cell DFFNEGX1.
 Moving label "A" from metal1 to m2contact in cell XNOR2X1.
 LEF read: Processed 2941 lines.
-Processing timestamp mismatches: OR2X2, NOR2X1, NAND2X1, FILL, AND2X2, NAND3X1, OAI21X1, INVX1, BUFX2.
+Processing timestamp mismatches: BUFX2, NAND2X1, FILL, OAI21X1, INVX1, NAND3X1, OR2X2, NOR2X1, AND2X2.
 drc = 0
-DRC checking script ended on sob, 29 maj 2021, 15:51:51 CEST
+DRC checking script ended on czw, 10 cze 2021, 16:06:10 CEST
