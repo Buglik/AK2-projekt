@@ -1,1 +1,149 @@
+{C:/Users/jakub/Desktop/ak2VM/fa vsim/osu018_stdcells.v} {1 {vlog -work full_adder -stats=none {C:/Users/jakub/Desktop/ak2VM/fa vsim/osu018_stdcells.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module AND2X1
+-- Compiling module AND2X2
+-- Compiling module AOI21X1
+-- Compiling module AOI22X1
+-- Compiling module BUFX2
+-- Compiling module BUFX4
+-- Compiling module CLKBUF1
+-- Compiling module CLKBUF2
+-- Compiling module CLKBUF3
+-- Compiling module DFFNEGX1
+-- Compiling module DFFPOSX1
+-- Compiling module DFFSR
+-- Compiling module FAX1
+-- Compiling module HAX1
+-- Compiling module INVX1
+-- Compiling module INVX2
+-- Compiling module INVX4
+-- Compiling module INVX8
+-- Compiling module LATCH
+-- Compiling module MUX2X1
+-- Compiling module NAND2X1
+-- Compiling module NAND3X1
+-- Compiling module NOR2X1
+-- Compiling module NOR3X1
+-- Compiling module OAI21X1
+-- Compiling module OAI22X1
+-- Compiling module OR2X1
+-- Compiling module OR2X2
+-- Compiling module TBUFX1
+-- Compiling module TBUFX2
+-- Compiling module XNOR2X1
+-- Compiling module XOR2X1
+-- Compiling UDP udp_dff
+-- Compiling UDP udp_tlat
+-- Compiling UDP udp_rslat
+-- Compiling UDP udp_mux2
 
+Top level modules:
+	AND2X1
+	AND2X2
+	AOI21X1
+	AOI22X1
+	BUFX2
+	BUFX4
+	CLKBUF1
+	CLKBUF2
+	CLKBUF3
+	DFFNEGX1
+	DFFPOSX1
+	DFFSR
+	FAX1
+	HAX1
+	INVX1
+	INVX2
+	INVX4
+	INVX8
+	LATCH
+	MUX2X1
+	NAND2X1
+	NAND3X1
+	NOR2X1
+	NOR3X1
+	OAI21X1
+	OAI22X1
+	OR2X1
+	OR2X2
+	TBUFX1
+	TBUFX2
+	XNOR2X1
+	XOR2X1
+
+} {} {}} {C:/Users/jakub/Desktop/ak2VM/fa vsim/full_adder.v} {1 {vlog -work full_adder -stats=none {C:/Users/jakub/Desktop/ak2VM/fa vsim/full_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} {C:/Users/jakub/Desktop/ak2VM/fa vsim/full_adder_synth_tb.v} {1 {vlog -work full_adder -stats=none {C:/Users/jakub/Desktop/ak2VM/fa vsim/full_adder_synth_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module AND2X1
+-- Compiling module AND2X2
+-- Compiling module AOI21X1
+-- Compiling module AOI22X1
+-- Compiling module BUFX2
+-- Compiling module BUFX4
+-- Compiling module CLKBUF1
+-- Compiling module CLKBUF2
+-- Compiling module CLKBUF3
+-- Compiling module DFFNEGX1
+-- Compiling module DFFPOSX1
+-- Compiling module DFFSR
+-- Compiling module FAX1
+-- Compiling module HAX1
+-- Compiling module INVX1
+-- Compiling module INVX2
+-- Compiling module INVX4
+-- Compiling module INVX8
+-- Compiling module LATCH
+-- Compiling module MUX2X1
+-- Compiling module NAND2X1
+-- Compiling module NAND3X1
+-- Compiling module NOR2X1
+-- Compiling module NOR3X1
+-- Compiling module OAI21X1
+-- Compiling module OAI22X1
+-- Compiling module OR2X1
+-- Compiling module OR2X2
+-- Compiling module TBUFX1
+-- Compiling module TBUFX2
+-- Compiling module XNOR2X1
+-- Compiling module XOR2X1
+-- Compiling UDP udp_dff
+-- Compiling UDP udp_tlat
+-- Compiling UDP udp_rslat
+-- Compiling UDP udp_mux2
+-- Compiling module full_adder
+-- Compiling module full_adder_tb
+
+Top level modules:
+	AND2X1
+	AOI21X1
+	AOI22X1
+	BUFX4
+	CLKBUF1
+	CLKBUF2
+	CLKBUF3
+	DFFNEGX1
+	DFFPOSX1
+	DFFSR
+	FAX1
+	HAX1
+	INVX2
+	INVX4
+	INVX8
+	LATCH
+	MUX2X1
+	NOR3X1
+	OAI22X1
+	OR2X1
+	TBUFX1
+	TBUFX2
+	XNOR2X1
+	XOR2X1
+	full_adder_tb
+
+} {} {}}

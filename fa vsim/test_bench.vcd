@@ -1,0 +1,70 @@
+$date
+	Sun Jun 13 22:31:55 2021
+$end
+$version
+	ModelSim Version 2021.1
+$end
+$timescale
+	10ps
+$end
+
+$scope module full_adder_tb $end
+$var parameter 32 ! period $end
+$var reg 1 " x $end
+$var reg 1 # y $end
+$var reg 1 $ c $end
+$var wire 1 % sum $end
+$var wire 1 & o_carry $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+0#
+0$
+b10100 !
+x%
+x&
+$end
+#18
+0&
+#26
+0%
+#2000
+1$
+#2017
+1%
+#4000
+1#
+0$
+#4017
+0%
+#4025
+1%
+#6000
+1$
+#6017
+1&
+#6023
+0%
+#8000
+1"
+0#
+0$
+#8017
+0&
+#8021
+1%
+#10000
+1$
+#10017
+1&
+#10023
+0%
+#12000
+1#
+0$
+#14000
+1$
+#14017
+1%

@@ -1,6 +1,6 @@
 // `include "../libs/freepdk-45nm/stdcells.v"
-`include "../libs/osu018/osu018_stdcells.v"
-`include "./build/full_adder.v"
+`include "osu018_stdcells.v"
+`include "full_adder.v"
 `timescale 1 ns/10 ps  // time-unit = 1 ns, precision = 10 ps
 
 module full_adder_tb;
@@ -18,15 +18,10 @@ module full_adder_tb;
     .o_carry(o_carry)
   );
     
-  // initial
-    // begin
-      // full_adder_tb.adder_inst
-      // $sdf_annotate("./build/full_adder.sdf", adder_inst,,"sdfAnnotateLog.log"); 
-    // end 
 
   initial
     begin
-      $sdf_annotate("./build/full_adder.sdf", adder_inst,,"sdfAnnotateLog.log"); 
+      //$sdf_annotate("./build/full_adder.sdf", adder_inst,,"sdfAnnotateLog.log"); 
       $dumpfile("test_bench.vcd");
       $dumpvars(1, full_adder_tb);
       // $dumpvars(1, adder_inst);
