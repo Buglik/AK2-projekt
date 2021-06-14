@@ -1,0 +1,17 @@
+# do vsimScript.do
+# vsim full_adder.full_adder_tb 
+# Start time: 20:30:10 on Jun 14,2021
+# Loading full_adder.full_adder_tb
+# Loading full_adder.full_adder
+# Loading full_adder.OR2X2
+# Loading full_adder.NAND2X1
+# Loading full_adder.NAND3X1
+# Loading full_adder.NOR2X1
+# Loading full_adder.AND2X2
+# Loading full_adder.OAI21X1
+# Loading full_adder.BUFX2
+# Loading full_adder.INVX1
+# 0 ps
+# 168 ns
+# End time: 20:30:27 on Jun 14,2021, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
